@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 /* Hero code */
 .hero {
@@ -15,6 +15,7 @@
 
 .header {
     display: flex;
+    align-items: center;
     margin-bottom: 100px;
 }
 
@@ -79,6 +80,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .main h1 {
@@ -120,14 +122,78 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px 350px;
 }
 
 .quote-text {
+    min-width: 400px;
+}
+
+.quote-text p {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
+    min-width: 400px;
 }
 
 .author {
     align-self: flex-end;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 292px;
 }
+
+/* Sign up code */
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    min-width: 310px;
+}
+
+.signup-message {
+    flex: 2;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 0;
+}
+
+.signup-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+.signup-message h4 {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.signup-message p {
+    color: #E5E7EB;
+}
+
+/* Footer code */
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 50px;
+}
+
 
